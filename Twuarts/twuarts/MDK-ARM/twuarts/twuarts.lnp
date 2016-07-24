@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"twuarts\main.o"
+"twuarts\stm32f4xx_it.o"
+"twuarts\usart.o"
+"twuarts\gpio.o"
+"twuarts\stm32f4xx_hal_msp.o"
+"twuarts\twuarts.o"
+"twuarts\system_stm32f4xx.o"
+"twuarts\startup_stm32f407xx.o"
+"twuarts\stm32f4xx_hal_flash_ramfunc.o"
+"twuarts\stm32f4xx_hal_uart.o"
+"twuarts\stm32f4xx_hal_rcc_ex.o"
+"twuarts\stm32f4xx_hal_dma.o"
+"twuarts\stm32f4xx_hal_tim.o"
+"twuarts\stm32f4xx_hal_pwr_ex.o"
+"twuarts\stm32f4xx_hal_gpio.o"
+"twuarts\stm32f4xx_hal_flash.o"
+"twuarts\stm32f4xx_hal_cortex.o"
+"twuarts\stm32f4xx_hal_tim_ex.o"
+"twuarts\stm32f4xx_hal_rcc.o"
+"twuarts\stm32f4xx_hal.o"
+"twuarts\stm32f4xx_hal_flash_ex.o"
+"twuarts\stm32f4xx_hal_dma_ex.o"
+"twuarts\stm32f4xx_hal_pwr.o"
+--library_type=microlib --strict --scatter "twuarts\twuarts.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "twuarts.map" -o twuarts\twuarts.axf

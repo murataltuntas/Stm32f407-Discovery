@@ -1,0 +1,13 @@
+#ifndef __FURKAN_H__
+#define __FURKAN_H__
+
+
+void FRK_Init(void);
+
+#define TXBUFFERSIZE                      (COUNTOF(aTxBuffer) - 1)
+#define RXBUFFERSIZE                      TXBUFFERSIZE
+#define COUNTOF(__BUFFER__)   (sizeof(__BUFFER__) / sizeof(*(__BUFFER__)))
+
+
+#endif
+
