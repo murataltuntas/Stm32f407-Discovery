@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"1.board\stm32f4xx_hal_pwr.o"
+"1.board\stm32f4xx_hal_uart.o"
+"1.board\stm32f4xx_hal_rcc_ex.o"
+"1.board\stm32f4xx_hal_dma.o"
+"1.board\stm32f4xx_hal_flash_ex.o"
+"1.board\stm32f4xx_hal_dma_ex.o"
+"1.board\stm32f4xx_hal_rcc.o"
+"1.board\stm32f4xx_hal_pwr_ex.o"
+"1.board\stm32f4xx_hal_tim_ex.o"
+"1.board\stm32f4xx_hal_flash.o"
+"1.board\stm32f4xx_hal.o"
+"1.board\stm32f4xx_hal_cortex.o"
+"1.board\stm32f4xx_hal_gpio.o"
+"1.board\stm32f4xx_hal_tim.o"
+"1.board\stm32f4xx_hal_flash_ramfunc.o"
+"1.board\startup_stm32f407xx.o"
+"1.board\main.o"
+"1.board\stm32f4xx_hal_msp.o"
+"1.board\gpio.o"
+"1.board\usart.o"
+"1.board\stm32f4xx_it.o"
+"1.board\twuarts.o"
+"1.board\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "1.Board\1.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "1.map" -o 1.Board\1.Board
