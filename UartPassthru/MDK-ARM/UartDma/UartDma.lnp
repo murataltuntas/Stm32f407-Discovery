@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"uartdma\stm32f4xx_hal.o"
+"uartdma\stm32f4xx_hal_rcc_ex.o"
+"uartdma\stm32f4xx_hal_pwr_ex.o"
+"uartdma\stm32f4xx_hal_gpio.o"
+"uartdma\stm32f4xx_hal_flash_ramfunc.o"
+"uartdma\stm32f4xx_hal_tim_ex.o"
+"uartdma\stm32f4xx_hal_dma.o"
+"uartdma\stm32f4xx_hal_tim.o"
+"uartdma\stm32f4xx_hal_flash_ex.o"
+"uartdma\stm32f4xx_hal_dma_ex.o"
+"uartdma\stm32f4xx_hal_pwr.o"
+"uartdma\stm32f4xx_hal_uart.o"
+"uartdma\stm32f4xx_hal_flash.o"
+"uartdma\stm32f4xx_hal_rcc.o"
+"uartdma\stm32f4xx_hal_cortex.o"
+"uartdma\system_stm32f4xx.o"
+"uartdma\stm32f4xx_hal_msp.o"
+"uartdma\main.o"
+"uartdma\gpio.o"
+"uartdma\stm32f4xx_it.o"
+"uartdma\usart.o"
+"uartdma\dma.o"
+"uartdma\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "UartDma\UartDma.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UartDma.map" -o UartDma\UartDma.axf
