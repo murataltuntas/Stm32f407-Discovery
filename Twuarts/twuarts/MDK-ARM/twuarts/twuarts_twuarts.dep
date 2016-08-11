@@ -44,7 +44,7 @@ I (../Src/twuarts.h)(0x57909B33)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE892C)
 F (../Src/stm32f4xx_it.c)(0x5790A455)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include --C99
 
--I C:\Users\Furkan.Mut\Desktop\twuarts_parola_emre\twuarts\MDK-ARM\RTE
+-I C:\Users\Furkan.Mut\Desktop\twuarts\twuarts\MDK-ARM\RTE
 
 -I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
 
