@@ -92,3 +92,5 @@ In order to make the program work, you must do the following :
  * <h3><center>&copy; COPYRIGHT STMicroelectronics</center></h3>
  */
 
+Bu projeyi RCTesterMonitor projesi ve Picoscope ile kullanarak, kullandığım işlemcinin LOW, HYSTERESIS ve HIGH bölgelerini öğrenmek. 
+
