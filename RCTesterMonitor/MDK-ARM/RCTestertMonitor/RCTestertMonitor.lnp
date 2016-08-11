@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"rctestertmonitor\stm32f4xx_hal_dma.o"
+"rctestertmonitor\stm32f4xx_hal_dma_ex.o"
+"rctestertmonitor\stm32f4xx_hal_cortex.o"
+"rctestertmonitor\stm32f4xx_hal_flash_ex.o"
+"rctestertmonitor\stm32f4xx_hal_rcc.o"
+"rctestertmonitor\stm32f4xx_hal_tim_ex.o"
+"rctestertmonitor\stm32f4xx_hal_gpio.o"
+"rctestertmonitor\stm32f4xx_hal.o"
+"rctestertmonitor\stm32f4xx_hal_pwr.o"
+"rctestertmonitor\stm32f4xx_hal_flash.o"
+"rctestertmonitor\stm32f4xx_hal_flash_ramfunc.o"
+"rctestertmonitor\stm32f4xx_hal_pwr_ex.o"
+"rctestertmonitor\stm32f4xx_hal_rcc_ex.o"
+"rctestertmonitor\stm32f4xx_hal_tim.o"
+"rctestertmonitor\stm32f4xx_it.o"
+"rctestertmonitor\stm32f4xx_hal_msp.o"
+"rctestertmonitor\gpio.o"
+"rctestertmonitor\main.o"
+"rctestertmonitor\system_stm32f4xx.o"
+"rctestertmonitor\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "RCTestertMonitor\RCTestertMonitor.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RCTestertMonitor.map" -o RCTestertMonitor\RCTestertMonitor.axf
